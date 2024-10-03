@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid p-0 ms-5 me-5 border-bottom border-light">
+          <a class="navbar-brand " href="#">
+            <img src="./images/carbon logo.webp" alt="" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse gap-5 navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active  link-light" aria-current="page" href="./index.html" id="personallink">Personal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="#">Business</a>
+              </li>
+            </ul>
+            <form class="d-flex g-5" role="search">
+                <ul class="navbar-nav gap-4 me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-light" href="#" role="button" id="dropdownMenulink" data-bs-toggle="dropdown" aria-expanded="false">
+                          Features
+                        </a>
+                        <ul class="dropdown-menu features-menu">
+                          <div class="ro">
+                            <li class="col-md-6"><a class="dropdown-item" href="#">
+                              <img src="./images/featuresdropdown1.png" alt="">
+                              <h6>Loans</h6>
+                              <p>Instant loans whenever you need it</p>
+                            </a></li>
+                            <li class="col-md-6"><a class="dropdown-item" href="#">
+                              <img src="./images/featuresdropdown2.png" alt="">
+                              <h6>Payments</h6>
+                              <p>All your payments, in one place</p>
+                            </a></li>
+                            <li class="col-md-6"><a class="dropdown-item" href="#">
+                              <img src="./images/featuresdropdown3.png" alt="">
+                              <h6>Carbon zero</h6>
+                              <p>Buy now, pay later</p>
+                            </a></li>
+                            <li class="col-md-6"><a class="dropdown-item" href="#">
+                              <img src="./images/featuresdropdown4.png" alt="">
+                              <h6>Savings</h6>
+                              <p>Earn returns on saving on carbon</p>
+                            </a></li>
+                            <li class="col-md-6"><a class="dropdown-item" href="#">
+                              <img src="./images/featuresdropdown5.png" alt="">
+                              <h6>Carbon circles</h6>
+                              <p>Save in a grop with a common goal in mind</p>
+                            </a></li>
+                            <li class="col-6"><a class="dropdown-item" href="#">
+                              <img src="./images/featuresdropdown6.png" alt="">
+                              <h6>Credit report</h6>
+                              <p>keep track of your credit history</p>
+                            </a></li>
+                          </div>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Company
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">
+                            <img src="./images/companydropdown1.png" alt="">
+                            <h6>About us</h6>
+                            <p>Providing financial access to everyone</p>
+                          </a></li>
+                          <li><a class="dropdown-item" href="#">
+                            <img src="./images/companydropdown2.png" alt="">
+                            <h6>Blog</h6>
+                            <p>Get carbon news and updates</p>
+                          </a></li>
+                          <li><a class="dropdown-item" href="#">
+                            <img src="./images/companydropdown3.png" alt="">
+                            <h6>Careers</h6>
+                            <p>Build the best bank in africa</p>
+                          </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active link-light" aria-current="page"  href="./loancalc.html">Loan calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active link-light" aria-current="page" href="./FAQ.html">FAQ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          help
+                        </a>
+                        <ul class="dropdown-menu help-menu">
+                          <li><a class="dropdown-item" href="#">
+                            <img src="./images/helpdrop1.png" alt="">
+                            <h6>Knowledge base</h6>
+                            <p>Get answers to common issues</p>
+                          </a></li>
+                          <li><a class="dropdown-item" href="#">
+                            <img src="./images/helpdrop2.png" alt="">
+                            <h6>Contact</h6>
+                            <p>Like to reach out? Get in touch with us</p>
+                          </a></li>
+                          <li><a class="dropdown-item" href="#">
+                            <img src="./images/helpdrop3.png" alt="">
+                            <h6>Community</h6>
+                            <p>Join our Community and get updated</p>
+                          </a></li>
+                          <li><a class="dropdown-item" href="#">
+                            <img src="./images/helpdrop4.png" alt="">
+                            <h6>Report Account</h6>
+                            <p>Report suspicious activity on your account</p>
+                          </a></li>
+                        </ul>
+                    </li>   
+                </ul>
+            </form>
+            <button class="btn btn-light p-3 g-3" type="submit">Sign in</button>
+          </div>
+        </div>
+    </nav>
+    <div class="otherbody">
+        <div class="hero">
+            <div class="herowrapper">
+                <div class="left">
+                    <h2>You’ll need your phone for that</h2>
+                    <p>Open the camera on your phone and scan the QR code, or tap the button below on your phone.</p>
+                    <img src="./images/footer googleplay.svg" alt="">
+                    <img src="./images/footer appstore.svg" alt="">
+                </div>
+                <div class="right">
+                    <img src="./images/QR-code.png" alt="">
+                    <img class="tiny" src="./images/QR-kite.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="sectionX">
+            <h1>Getting started with the Carbon app</h1>
+            <div class="Xslider">
+              <div class="card1 card">
+                <div class="cardtop">
+                  <div class="block">
+                    <div class="round">
+                      <p>01</p>
+                    </div>
+                  </div>
+                  <h5>Download the app</h5>
+                  <p>Get the carbon App on Google Play Store for Andriod or App Store for iOS.</p>
+                </div>
+                <div class="cardbottom">
+                  <img src="./images/SectionX1st.svg" alt="">
+                  <img src="./images/SectionX2nd.svg" alt="">
+                </div>
+              </div>
+              <div class="card2 card">
+                <div class="cardtop">
+                  <div class="block">
+                    <div class="round">
+                      <p>02</p>
+                    </div>
+                  </div>
+                  <h5>Register within minutes</h5>
+                  <p>Tell us a few details about you to help us create your Carbon account quickly.</p>
+  
+                </div>
+                <div class="cardbottom">
+                  <img src="./images/SectionX3rd.webp" alt="">
+                </div>
+              </div>
+              <div class="card3 card">
+                <div class="cardtop">
+                  <div class="block">
+                    <div class="round">
+                      <p>03</p>
+                    </div>
+                  </div>
+                  <h5>Start banking</h5>
+                  <p>You’re ready to go. Carry out all your banking transactions within the app.</p>
+  
+                </div>
+                <div class="cardbottom">
+                  <img src="./images/SectionX4th.webp" alt="">
+                </div>
+              </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footercontainer">
+              <div class="firstcontent">
+                <img class="log" src="./images/carbon logo.webp" alt=""><br>
+                <div class="drop">
+                  <img src="./images/nigeria.svg" alt="">
+                  <span>Nigeria</span>
+                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="flist">
+                <ul>
+                  <li><h4>Features</h4></li>
+                  <li><a href="">Carbon account</a></li>
+                  <li><a href="">Payments</a></li>
+                  <li><a href="">Cards</a></li>
+                  <li><a href="">Carbon Circles</a></li>
+                  <li><a href="">investments</a></li>
+                  <li><a href="">Credit Reports</a></li>
+                  <li><a href="">Loans</a></li>
+                </ul>
+              </div>
+              <div class="flist">
+                <ul>
+                  <li><h4>Company</h4></li>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Career</a></li>
+                  <li><a href="">Blog</a></li>
+                </ul>
+              </div>
+              <div class="flist">
+                <ul>
+                  <li><h4>Help</h4></li>
+                  <li><a href="">FAQ</a></li>
+                  <li><a href="">Knowledge base</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Community</a></li>
+                </ul>
+              </div>
+              <div class="flist">
+                <ul>
+                  <li><h4>Legal</h4></li>
+                  <li><a href="">Privacy policy</a></li>
+                  <li><a href="">Terms & Conditions</a></li>
+                  <li><a href="">Whistleblowing</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footersocials">
+              <div class="appstore">
+                <img src="./images/SectionX1st.svg" alt="">
+                <img src="./images/SectionX2nd.svg" alt="">
+              </div>
+              <div class="social">
+                <a href=""><img src="./images/footer facebook.svg" alt=""></a>
+                <a href=""><img src="./images/twitter footer.svg" alt=""></a>
+                <a href=""><img src="./images/footer insta.svg" alt=""></a>
+                <a href=""><img src="./images/645e07941b9dbaee684fcf88_007-youtube.svg" alt=""></a>
+                <a href=""><img src="./images/645e07941b9dbaee684fcf87_010-linkedin.svg" alt=""></a>
+                <a href=""><img src="./images/645e07941b9dbaee684fcf84_006-tumblr.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="footertext">
+              <p>©2024 Carbon is a financial service provided by Carbon Microfinance Bank (RC 1642222), licensed and regulated by the Central Bank of Nigeria (CBN). We empower individuals with credit, simple payments solutions, high-yield investment opportunities, and easy-to-use tools for personal financial management. We are a global company of over 90 employees with a presence in Nigeria.</p>
+              <p>Registered address: Plot 642C Akin Adesola St. Lagos 101233 Nigeria</p>
+            </div>
+          </footer>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

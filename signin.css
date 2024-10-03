@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"graphik";
+}
+@font-face{
+    font-family:"graphik";
+    src:url('/Graphik_Collection/GraphikFamily/Graphik-Semibold-Trial.otf') format('opentype');
+}
+
+/* navbar */
+.logo{
+    width: 200px;
+    height: 74px;
+}
+nav{
+    background-color:#2C1762;
+    width: 100% !important;
+}
+.navbar .container-fluid{
+    /* background-color:#2C1762 */
+}
+.navbar .nav-link:hover{
+    color: rgb(243, 37, 37) !important;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+#personallink{
+    color: rgb(172, 56, 172) !important;
+}
+nav .navbar-toggler{
+    color: white !important;
+}
+.otherbody{
+    position: relative;
+    top: 100px;
+}
+.features-menu{
+    overflow-y:auto;
+    max-height: 500px;
+}
+.help-menu{
+    overflow-x:auto;
+    max-width: 200px;
+}
+.dropdown p{
+    font-size: 14px;
+    color: #BAB4C7;
+}
+/* hero section  */
+.hero{
+    padding: 140px 85px 80px;
+    background-color: #B48CFC0D;
+}
+.herowrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    width: 55%;
+}
+.left h2{
+    font-size: 50px;
+    margin: 20px 0px 10px;
+    padding-right: 40px;
+    color: #2C1762;
+}
+.left p{
+    font-size: 18px;
+    color: #5A617C;
+    margin-bottom: 24px;
+    padding-right: 40px;
+}
+.left img{
+    margin-right: 20px;
+    width: 180px;
+    height: 50px;
+}
+.right .tiny{
+    margin-top: -300px;
+}
+/* Section X */
+.sectionX{
+    padding: 80px 85px;
+}
+.sectionX h1{
+    margin: 20px 0px 10px;
+    font-size: 40px;
+    color: #2C1762;
+    width: 50%;
+}
+.sectionX .Xslider{
+    padding: 40px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+.sectionX .block{
+    margin-bottom: 20px;
+}
+.sectionX .round{
+    background-color: #2C1762;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.sectionX .round p{
+    font-size: 20px;
+    color: white;
+    margin:10px 0px 0px 7px;
+}
+.sectionX .cardtop{
+    padding: 20px;
+}
+.sectionX h5{
+    margin-bottom: 10px;
+}
+.sectionX .card{
+    box-shadow:3px 3px 10px #6c6f79;
+    border-radius: 10px;
+}
+.sectionX p{
+    color: #5A617C;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.sectionX .card1 img{
+    margin: 20px 0px;
+    position: relative;
+    left: 20%;
+}
+.sectionX .card1 .cardbottom{
+    padding: 23px 0px;
+    width: 360px;
+}
+.sectionX .card2 img{
+    width: 330px;
+    height: 250px;
+}
+.sectionX .card3 img{
+    width: 330px;
+    height: 250px;
+}
+.sectionX .cardbottom{
+    background-color: #ff0475;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+/* footer */
+footer{
+    background-color: #2C1762;
+    padding: 50px 70px 70px;
+}
+.footercontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0px 60px 100px;
+}
+.firstcontent .log{
+    width: 120px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+.footercontainer .drop{
+    border: white 1px solid;
+    display: flex;
+    align-content: center;
+    padding: 6px 12px;
+    display: inline;
+    margin-top: 10px;
+}
+.footercontainer .drop span{
+    color: white;
+    margin:0px 10px 0px 10px;
+}
+.footercontainer .drop i{
+    color: white;
+    font-size: 1em;
+}
+.flist{
+    margin: 0px 30px 16px;
+}
+.flist ul{
+    list-style: none;
+}
+.flist h4{
+    font-size: 14px;
+    color: #B48CFC;
+    margin: 4px 0px 16px;
+}
+.flist a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 12px;
+}
+.footersocials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+}
+.footersocials .appstore img{
+    width: 90px;
+    height: 25px;
+}
+.footersocials .social{
+    display: flex;
+    justify-content: space-between;
+}
+.social a{
+    margin-right: 70px;
+}
+.footertext{
+    margin: 30px 50px 10px;
+}
+.footertext p{
+    color: #BAB4C7;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+

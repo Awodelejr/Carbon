@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"graphik";
+}
+@font-face{
+    font-family:"graphik";
+    src:url('/Graphik_Collection/GraphikFamily/Graphik-Semibold-Trial.otf') format('opentype');
+}
+
+/* navbar */
+.logo{
+    width: 200px;
+    height: 74px;
+}
+nav{
+    background-color:#2C1762;
+    width: 100% !important;
+}
+.navbar .container-fluid{
+    /* background-color:#2C1762 */
+}
+.navbar .nav-link:hover{
+    color: rgb(243, 37, 37) !important;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+#personallink{
+    color: rgb(172, 56, 172) !important;
+}
+nav .navbar-toggler{
+    color: white !important;
+}
+.otherbody{
+    position: relative;
+    top: 100px;
+}
+.features-menu{
+    overflow-y:auto;
+    max-height: 500px;
+}
+.help-menu{
+    overflow-x:auto;
+    max-width: 200px;
+}
+.dropdown p{
+    font-size: 14px;
+    color: #BAB4C7;
+}
+nav button a {
+    text-decoration: none;
+    color: #5A617C;
+}
+/* FAQ */
+.faq{
+    padding: 85px 80px;
+}
+.accordion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.1em;
+}
+.accordion-item{
+    box-shadow: 1px 1px 15px 1px #ededf0;
+    border-radius: 10px;
+}
+.accordion-button{
+    border-radius: 10px;
+}
+.accordion-body p{
+    font-size: 14px;
+    color: #5A617C;
+}
+.accordion-body li{
+    font-size: 14px;
+    color: #5A617C;
+}
+.accordion-body li strong{
+    font-size: 14px;
+    color: #13141a;
+}
+
+/* footer */
+footer{
+    background-color: #2C1762;
+    padding: 50px 70px 70px;
+}
+.footercontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0px 60px 100px;
+}
+.firstcontent .log{
+    width: 120px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+.footercontainer .drop{
+    border: white 1px solid;
+    display: flex;
+    align-content: center;
+    padding: 6px 12px;
+    display: inline;
+    margin-top: 10px;
+}
+.footercontainer .drop span{
+    color: white;
+    margin:0px 10px 0px 10px;
+}
+.footercontainer .drop i{
+    color: white;
+    font-size: 1em;
+}
+.flist{
+    margin: 0px 30px 16px;
+}
+.flist ul{
+    list-style: none;
+}
+.flist h4{
+    font-size: 14px;
+    color: #B48CFC;
+    margin: 4px 0px 16px;
+}
+.flist a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 12px;
+}
+.footersocials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+}
+.footersocials .appstore img{
+    width: 90px;
+    height: 25px;
+}
+.footersocials .social{
+    display: flex;
+    justify-content: space-between;
+}
+.social a{
+    margin-right: 70px;
+}
+.footertext{
+    margin: 30px 50px 10px;
+}
+.footertext p{
+    color: #BAB4C7;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
