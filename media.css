@@ -177,6 +177,12 @@
         grid-template-columns: 1fr;
         gap: 1em;
     }
+    .faqsection{
+        padding: 60px 10px;
+    }
+    .faqsection .wrapper h2{
+        font-size: 30px;
+    }
 }
 @media(max-width:623px){
     .section2 .back{
@@ -190,6 +196,9 @@
     .footercontainer{
         grid-template-columns: 1fr 1fr;
         margin: 0px 0px 40px;
+    }
+    .faqsection .wrapper h2{
+        font-size: 30px;
     }
    
 }

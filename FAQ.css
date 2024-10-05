@@ -81,6 +81,30 @@ nav button a {
     font-size: 14px;
     color: #13141a;
 }
+.faqsection{
+    padding: 80px 85px;
+}
+.faqsection .wrapper{
+    padding: 60px 0px;
+    background-color: #4EF1E01A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faqsection .wrapper h2{
+    font-size: 40px;
+    color: #2C1762;
+    margin: 20px 0px 30px;
+
+}
+.faqsection .wrapper a{
+    background-color: rgb(231, 7, 119);
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
 
 /* footer */
 footer{
