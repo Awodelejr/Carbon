@@ -173,6 +173,9 @@
     .section14wrapper{
         flex-direction: column;
     }
+    .faq{
+        padding: 85px 20px;
+    }
     .accordion{
         grid-template-columns: 1fr;
         gap: 1em;
@@ -181,6 +184,9 @@
         padding: 60px 10px;
     }
     .faqsection .wrapper h2{
+        font-size: 30px;
+    }
+    .faqhero .wrapper h2{
         font-size: 30px;
     }
 }
@@ -198,7 +204,13 @@
         margin: 0px 0px 40px;
     }
     .faqsection .wrapper h2{
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .faqhero .wrapper{
+        padding: 20px 20px 0px;
+    }
+    .faqhero .wrapper img{
+        display: none;
     }
    
 }
@@ -206,6 +218,13 @@
     .footercontainer{
         grid-template-columns: 1fr;
         margin: 0px 0px 0px;
+    }
+    nav .logo{
+        width: 150px;
+        height: 50px;
+    }
+    .container-fluid{
+        margin: 0px !important;
     }
 }
 @media(max-width:300px){

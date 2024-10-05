@@ -53,6 +53,24 @@ nav button a {
     text-decoration: none;
     color: #5A617C;
 }
+/* hero section */
+.faqhero{
+    background-color: #e7e5ec42;
+    border-bottom: #13141a solid 5px;
+}
+.faqhero .wrapper{
+    padding: 85px 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faqhero .wrapper h2{
+    font-size: 50px;
+    color: #2C1762;
+    margin: 20px 0px 30px;
+    text-align: center;
+    z-index: 10;
+}
 /* FAQ */
 .faq{
     padding: 85px 80px;
@@ -95,7 +113,7 @@ nav button a {
     font-size: 40px;
     color: #2C1762;
     margin: 20px 0px 30px;
-
+    text-align: center;
 }
 .faqsection .wrapper a{
     background-color: rgb(231, 7, 119);
