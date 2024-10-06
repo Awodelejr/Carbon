@@ -84,11 +84,12 @@ nav button a {
     padding: 10px 20px;
     border-radius: 10px;
     box-shadow: none;
+    border: none;
     margin: 40px;
     transition: box-shadow .675s cubic-bezier(.374,.053,.298,.767)
 }
 .herotext button:hover{
-    background-color: #5d2ece;
+    background: linear-gradient(to right, #2C1762 5%, rgba(241, 5, 135, 0.966) );
     box-shadow: 0 40px 30px -17px #4a1fb1
 }
 .herotext a{

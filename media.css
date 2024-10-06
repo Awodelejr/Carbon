@@ -26,11 +26,7 @@
     .herowrapper{
         flex-direction: column;
     }
-    .heroback{
-        /* position: relative;
-        left: 10%;
-        width: 500px; */
-    }
+   
     .herotext{
         width: 100%;
         text-align: center;
@@ -189,6 +185,32 @@
     .faqhero .wrapper h2{
         font-size: 30px;
     }
+    .section15{
+        padding: 85px 40px;
+    }
+    .section15 .wrapper{
+    flex-direction: column;
+    }
+    .section16{
+        padding: 85px 40px;
+    }
+    .section16 .wrapper{
+    flex-direction: column-reverse;
+    }
+    .section17{
+        padding: 85px 40px;
+    }
+    .section17 .wrapper{
+    flex-direction: column;
+    gap: 5em;
+    }
+    
+    .section17 .wrapper .left{
+        width: 100%;
+    }
+    .section18 .left{
+        display: none;
+    }
 }
 @media(max-width:623px){
     .section2 .back{
@@ -212,7 +234,15 @@
     .faqhero .wrapper img{
         display: none;
     }
-   
+    .section15{
+        padding: 60px 40px;
+    }
+    .section16{
+        padding: 60px 40px;
+    }
+    .section17{
+        padding: 60px 40px;
+    }
 }
 @media(max-width:360px){
     .footercontainer{
@@ -226,6 +256,16 @@
     .container-fluid{
         margin: 0px !important;
     }
+    .heroback{
+        width: 300px;
+    }
+    .section15 img{
+        width: 300px;
+    }
+    .section16 .left img{
+        width: 300px;
+        height: 200px;
+    }
 }
 @media(max-width:300px){
     .section2 .photo{
@@ -234,5 +274,22 @@
     }
     .section2 .back{
         width: 100px;
+    }
+    .section15{
+        padding: 50px 20px;
+    }
+    .section16{
+        padding: 50px 20px;
+    }
+    .heroback{
+        width: 150px;
+        height: 300px;
+    }
+    .section15 img{
+        width: 200px;
+    }
+    .section16 .left img{
+        width: 200px;
+        height: 150px;
     }
 }
